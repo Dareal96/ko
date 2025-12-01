@@ -21,6 +21,7 @@ body{
   top: 0px;
   z-index: 999;
   width: 100%;
+  background-color: red;
 }
 /* .span{
   background-color: red; */
