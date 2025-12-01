@@ -22,13 +22,19 @@ body{
   z-index: 999;
   width: 100%;
 }
-
+/* .span{
+  background-color: red; */
+  /* display: flex;
+  flex-direction: column;
+  gap: 30px;
+  */
 
 .navI{
-  display: flex;
+  display:flex;
   gap: 10px;
   cursor: pointer;
   margin-left: 20px;
+  
 }
 .navI p:hover{
   background-color: #B0B0B0;
@@ -908,9 +914,16 @@ hr{
   background-color: white;
  padding: 30px 0;
 }
+.hamB{
+  /* display: none; */
+}
 
 
 @media (max-width: 768px){
+  .nav1{
+    /* display: flex; */
+    /* justify-content: space-around; */
+  }
   .navL button{
     margin-top: 40px;
     margin-left: 15px;
