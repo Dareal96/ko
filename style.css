@@ -928,7 +928,7 @@ hr{
       align-items: center;
       justify-content: end;
       height: 100%;
-     
+      display: none;
       padding-top: 30px;
    
 
@@ -944,9 +944,6 @@ hr{
 
 
 @media (max-width: 768px){
-  .Span{
-    display: none;
-  }
 
   .paragraphi{
     margin-top: -18px;
