@@ -12,15 +12,22 @@ body{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   height: 700px;
+  width: 100%;
+
   
 }
 .main{
   background-color: rgba(153, 190, 190, 0.201);
   height: auto;
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
+
 }
 .mainn{
   background-color: rgba(245, 245, 245, 0.525);
+  width: 100%;
+}
+input{
+  font-size: 16px;
 }
 .W{
   font-size: 25px;
@@ -69,7 +76,7 @@ body{
   width: 95%;
   border-radius: 15px;
   border: 1px solid gainsboro;
-  font-size: 16px;
+ 
 }
 .email{
   padding: 10px;
@@ -122,6 +129,9 @@ body{
   
 
 @media (max-width: 768px){
+ .Bigdiv{
+  grid-template-columns: repeat(1,1fr);
+ }
   .main{
     display: none;
   }
