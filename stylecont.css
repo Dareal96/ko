@@ -55,7 +55,7 @@ input{
   height: 450px;
   margin-top: 90px;
   padding-top: 30px;
-  width:500px;
+  max-width:500px;
   border-radius: 15px;
   border: 1px solid gainsboro;
   box-sizing: border-box;
